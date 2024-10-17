@@ -113,13 +113,12 @@ class LinkController {
     }
 
     public function addUsage($token) {
-      if ($link = getLink($token)) {
+      if ($link = $this->getLink($token)) {
         try  {
        
-            $sql = "UPDATE * 
-                    FROM Link
-                    WHERE token = :token
-                    SET usages = :usages";
+            $sql = "UPDATE Link
+                    SET usages = :usages
+                    WHERE token = :token";                                        ;
         
             $statement = $this->connection->prepare($sql);
             $statement->bindValue(':token', $token);
