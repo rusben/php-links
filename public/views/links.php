@@ -1,7 +1,3 @@
-<?php 
-// require __DIR__."/../../vendor/autoload.php";
-?>
-
 <!DOCTYPE html>
 <html lang="en" class="h-100" data-bs-theme="auto">
   <head>
