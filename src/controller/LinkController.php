@@ -1,7 +1,5 @@
 <?php
 
-require_once "DatabaseController.php";
-
 class LinkController {
 
     private $connection;

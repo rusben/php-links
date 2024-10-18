@@ -1,5 +1,7 @@
 <?php
 
+require_once "../vendor/autoload.php";
+
 $request = $_SERVER['REQUEST_URI'];
 $viewDir = '/views/';
 

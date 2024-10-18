@@ -1,5 +1,5 @@
-<?php
-require_once "../src/controller/LinkController.php";
+<?php 
+// require __DIR__."/../../vendor/autoload.php";
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@ require_once "../src/controller/LinkController.php";
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Cover Template · Bootstrap v5.3</title>
+    <title>Links</title>
     <link href="../assets/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="../assets/css/cover.css">

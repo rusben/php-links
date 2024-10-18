@@ -1,5 +1,4 @@
 <?php
-require_once "../src/controller/LinkController.php";
 
 // La variable $token la creamos en index.php 
 $linkController = new LinkController();
